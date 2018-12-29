@@ -70,9 +70,9 @@ public class ProjectAuditHelper {
         }
 
 
-    /*    PROJECT_HELP.put("a01", "　");
-        PROJECT_HELP.put("a02", "　");
-        PROJECT_HELP.put("a03", "　一定时期后应全部清除加油站");
+        PROJECT_HELP.put("C1.1", "　　　　　　　　　　　　　　");
+         PROJECT_HELP.put("a02", "　               ");
+    /*     PROJECT_HELP.put("a03", "　一定时期后应全部清除加油站");
         PROJECT_HELP.put("a04", "　暂不考核");
         PROJECT_HELP.put("a05", "可用A4纸黑白打印装订成册　");
         PROJECT_HELP.put("a06", "先期考核办公室、加油现场（含站房四周）、配发电间、厨房餐厅、员工宿舍、活动室，2018年7月起全面考核　");

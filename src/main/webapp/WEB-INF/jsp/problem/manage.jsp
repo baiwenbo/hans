@@ -242,8 +242,8 @@
 			 diag.Drag=true;
 			 diag.Title ="编辑";
 			 diag.URL = '<%=basePath%>adIssue/goEdit.do?ID='+Id;
-			 diag.Width = 1960;
-			 diag.Height = 1020;
+			 diag.Width = 1280;
+			 diag.Height = 960;
 			 diag.CancelEvent = function(){ //关闭事件
                  if(diag.innerFrame.contentWindow.document.getElementById('zhongxin').style.display == 'none'){
                      if('${page.currentPage}' == '0'){
