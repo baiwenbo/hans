@@ -43,7 +43,7 @@
 
 </head>
 <body>
-<form id="formData" action="<%=basePath%>adIssue/saveAudit.do">
+<form id="formData" action="<%=basePath%>jxd/saveAudit.do">
 	<div id="zhongxin">
 <div style="margin: 10px; ">
 	<br />

@@ -48,8 +48,8 @@ public class ProjectAuditHelperJXD {
         }
 
 
-    /*    PROJECT_HELP.put("a01", "　");
-        PROJECT_HELP.put("a02", "　");
+       PROJECT_HELP.put("a01", "　　　　　　　　　　　　　　");
+   /*      PROJECT_HELP.put("a02", "　");
         PROJECT_HELP.put("a03", "　一定时期后应全部清除加油站");
         PROJECT_HELP.put("a04", "　暂不考核");
         PROJECT_HELP.put("a05", "可用A4纸黑白打印装订成册　");

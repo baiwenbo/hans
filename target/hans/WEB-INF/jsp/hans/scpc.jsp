@@ -260,12 +260,13 @@
 				</tr>
 
 				<c:forEach items="${projectInfos}" var="projectInfo">
+					<c:set var="a0name" value="a0${projectInfo.key}" />
 				<tr class="text-center">
 					<c:set var="name" value="${projectInfo.key}" />
 					<c:set var="nameSM" value="${projectInfo.key}sm" />
 					<td width="10%" align="left" valign="top">${upperCaseInfo[name]}</td>
 					<td align="center" valign="middle" width="40%">${projectInfo.value}</td>
-					<td align="left" valign="top"><input type="text" size=10 name="${name}" value="${pd[name]}" >
+					<td align="left" valign="top"><input type="text" size=10 name="${a0name}" value="${pd[a0name]}" >
 
 					<td align="left" valign="top"><input type="text" size=30 name="${nameSM}" class="form-control"  value="${pd[nameSM]}">　</td>
 
@@ -273,9 +274,9 @@
 						<td>
 							<a class="btn btn-small btn-success" onclick="addImage('${pd.ID}', '${name}')">上传图片</a>
 							<a class="btn btn-small btn-info" onclick="imageDeal('${pd.ID}', '${name}')">查看图片</a>
-							<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.png" alt=""></img><BR>
-							<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.jpg" alt=""></img><BR>
-							<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.JPG" alt=""></img><BR>
+							<%--<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.png" alt=""></img><BR>--%>
+							<%--<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.jpg" alt=""></img><BR>--%>
+							<%--<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.JPG" alt=""></img><BR>--%>
 						</td>
 						<td>
 							<a href="<%=basePath%>hans/auditPage.do?projectName=${name}&ID=${pd.ID}">网点申诉</a>

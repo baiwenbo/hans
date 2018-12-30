@@ -43,7 +43,7 @@
 
 </head>
 <body>
-<form id="formData" action="<%=basePath%>adIssue/saveAudit.do">
+<form id="formData" action="<%=basePath%>hhz/saveAudit.do">
 	<div id="zhongxin">
 <div style="margin: 10px; ">
 	<br />

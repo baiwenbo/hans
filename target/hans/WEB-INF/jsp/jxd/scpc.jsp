@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ page import="com.fh.entity.qizhe.ProjectAuditHelper" %>
+<%@ page import="com.fh.entity.qizhe.ProjectAuditHelperJXD" %>
 <%
-	request.setAttribute("upperCaseInfo", ProjectAuditHelper.UPPER_CASE_INFO);
-	request.setAttribute("projectHelp", ProjectAuditHelper.PROJECT_HELP);
-	request.setAttribute("projectInfos", ProjectAuditHelper.PROJECT_INFO);
+	request.setAttribute("upperCaseInfo", ProjectAuditHelperJXD.UPPER_CASE_INFO);
+	request.setAttribute("projectHelp", ProjectAuditHelperJXD.PROJECT_HELP);
+	request.setAttribute("projectInfos", ProjectAuditHelperJXD.PROJECT_INFO);
 	String path = request.getContextPath();
 	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
@@ -107,7 +107,7 @@
 
 	</head>
 <body>
-<form action="adIssue/${msg }.do" name="Form" id="Form" method="post" onsubmit="alert('提交成功')">
+<form action="jxd/${msg }.do" name="Form" id="Form" method="post" onsubmit="alert('提交成功')">
 	<input type="hidden" name="ID" id="ID" value="${pd.ID}"/>
 	<div id="zhongxin">
 		<%--<a href="javascript:void(0);" class="btn_addPic">--%>
@@ -258,12 +258,13 @@
 				</tr>
 
 				<c:forEach items="${projectInfos}" var="projectInfo">
+					<c:set var="a0name" value="a0${projectInfo.key}" />
 				<tr class="text-center">
 					<c:set var="name" value="${projectInfo.key}" />
 					<c:set var="nameSM" value="${projectInfo.key}sm" />
 					<td width="10%" align="left" valign="top">${upperCaseInfo[name]}</td>
 					<td align="center" valign="middle" width="40%">${projectInfo.value}</td>
-					<td align="left" valign="top"><input type="text" size=10 name="${name}" value="${pd[name]}" >
+					<td align="left" valign="top"><input type="text" size=10 name="${a0name}" value="${pd[a0name]}" >
 
 					<td align="left" valign="top"><input type="text" size=30 name="${nameSM}" class="form-control"  value="${pd[nameSM]}">　</td>
 
@@ -276,7 +277,7 @@
 							<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.JPG" alt=""></img><BR>--%>
 						</td>
 						<td>
-							<a href="<%=basePath%>adIssue/auditPage.do?projectName=${name}&ID=${pd.ID}">网点申诉</a>
+							<a href="<%=basePath%>jxd/auditPage.do?projectName=${name}&ID=${pd.ID}">网点申诉</a>
 						</td>
 					</c:if>
 					<td align="left" valign="top">${projectHelp[name]}</td>
@@ -297,7 +298,7 @@
 							<a class="btn btn-small btn-info" onclick="imageDeal('${pd.ID}', 'a01')">查看图片</a>
 						</td>
 						<td>
-							<a href="<%=basePath%>adIssue/auditPage.do?projectName=a01&ID=${pd.ID}">网点申诉</a>
+							<a href="<%=basePath%>jxd/auditPage.do?projectName=a01&ID=${pd.ID}">网点申诉</a>
 							<c:choose>
 								<c:when test="${auditInfo['a01'] == null}">
 									<a class="btn btn-small btn-purple" onclick="audit('${pd.ID}', 'a01', '')">申诉</a>
@@ -5547,7 +5548,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="新增图片";
-            diag.URL = '<%=basePath%>adIssue/goImageAdd.do?id=' + id + '&projectName=' + projectName;
+            diag.URL = '<%=basePath%>jxd/goImageAdd.do?id=' + id + '&projectName=' + projectName;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件
@@ -5561,7 +5562,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="查看图片";
-            diag.URL = '<%=basePath%>adIssue/getImageDeal.do?id=' + id + '&projectName=' + projectName;
+            diag.URL = '<%=basePath%>jxd/getImageDeal.do?id=' + id + '&projectName=' + projectName;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件
@@ -5576,7 +5577,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="查看图片";
-            diag.URL = '<%=basePath%>adIssue/auditAdd.do?scpcid=' + scpcid + '&projectName=' + projectName + "&id=" + id;
+            diag.URL = '<%=basePath%>jxd/auditAdd.do?scpcid=' + scpcid + '&projectName=' + projectName + "&id=" + id;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件

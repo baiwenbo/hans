@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ page import="com.fh.entity.qizhe.ProjectAuditHelper" %>
+<%@ page import="com.fh.entity.qizhe.ProjectAuditHHZ" %>
 <%
-	request.setAttribute("upperCaseInfo", ProjectAuditHelper.UPPER_CASE_INFO);
-	request.setAttribute("projectHelp", ProjectAuditHelper.PROJECT_HELP);
-	request.setAttribute("projectInfos", ProjectAuditHelper.PROJECT_INFO);
+	request.setAttribute("upperCaseInfo", ProjectAuditHHZ.UPPER_CASE_INFO);
+	request.setAttribute("projectHelp", ProjectAuditHHZ.PROJECT_HELP);
+	request.setAttribute("projectInfos", ProjectAuditHHZ.PROJECT_INFO);
 	String path = request.getContextPath();
 	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
@@ -107,7 +107,7 @@
 
 	</head>
 <body>
-<form action="adIssue/${msg }.do" name="Form" id="Form" method="post" onsubmit="alert('提交成功')">
+<form action="hhz/${msg }.do" name="Form" id="Form" method="post" onsubmit="alert('提交成功')">
 	<input type="hidden" name="ID" id="ID" value="${pd.ID}"/>
 	<div id="zhongxin">
 		<%--<a href="javascript:void(0);" class="btn_addPic">--%>
@@ -247,6 +247,7 @@
 				<tr class="text-center">
 					<td width="10%" align="left" valign="top">序号</td>
 					<td align="left" valign="top" width="40%">考核内容</td>
+					<td align="left" width="20%" valign="top">考核说明</td>
 					<td width="16%" align="left" valign="top">扣分或加分</td>
 					<td align="left" width="21%" valign="top">扣分或加分说明</td>
 					<c:if test="${pd.ID != null}">
@@ -254,7 +255,7 @@
 						<td align="left" width="50%" valign="top">申诉</td>
 					</c:if>
 
-					<td align="left" width="20%" valign="top">考核说明</td>
+
 				</tr>
 
 				<c:forEach items="${projectInfos}" var="projectInfo">
@@ -263,6 +264,7 @@
 					<c:set var="nameSM" value="${projectInfo.key}sm" />
 					<td width="10%" align="left" valign="top">${upperCaseInfo[name]}</td>
 					<td align="center" valign="middle" width="40%">${projectInfo.value}</td>
+					<td align="left" valign="top">${projectHelp[name]}</td>
 					<td align="left" valign="top"><input type="text" size=10 name="${name}" value="${pd[name]}" >
 
 					<td align="left" valign="top"><input type="text" size=30 name="${nameSM}" class="form-control"  value="${pd[nameSM]}">　</td>
@@ -276,10 +278,10 @@
 							<img src="<%=basePath%>uploadFiles/picture/${pd.qname}-${name}.JPG" alt=""></img><BR>--%>
 						</td>
 						<td>
-							<a href="<%=basePath%>adIssue/auditPage.do?projectName=${name}&ID=${pd.ID}">网点申诉</a>
+							<a href="<%=basePath%>hhz/auditPage.do?projectName=${name}&ID=${pd.ID}">网点申诉</a>
 						</td>
 					</c:if>
-					<td align="left" valign="top">${projectHelp[name]}</td>
+
 				</tr>
 				</c:forEach>
 
@@ -297,7 +299,7 @@
 							<a class="btn btn-small btn-info" onclick="imageDeal('${pd.ID}', 'a01')">查看图片</a>
 						</td>
 						<td>
-							<a href="<%=basePath%>adIssue/auditPage.do?projectName=a01&ID=${pd.ID}">网点申诉</a>
+							<a href="<%=basePath%>hhz/auditPage.do?projectName=a01&ID=${pd.ID}">网点申诉</a>
 							<c:choose>
 								<c:when test="${auditInfo['a01'] == null}">
 									<a class="btn btn-small btn-purple" onclick="audit('${pd.ID}', 'a01', '')">申诉</a>
@@ -5547,7 +5549,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="新增图片";
-            diag.URL = '<%=basePath%>adIssue/goImageAdd.do?id=' + id + '&projectName=' + projectName;
+            diag.URL = '<%=basePath%>hhz/goImageAdd.do?id=' + id + '&projectName=' + projectName;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件
@@ -5561,7 +5563,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="查看图片";
-            diag.URL = '<%=basePath%>adIssue/getImageDeal.do?id=' + id + '&projectName=' + projectName;
+            diag.URL = '<%=basePath%>hhz/getImageDeal.do?id=' + id + '&projectName=' + projectName;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件
@@ -5576,7 +5578,7 @@
             var diag = new top.Dialog();
             diag.Drag=true;
             diag.Title ="查看图片";
-            diag.URL = '<%=basePath%>adIssue/auditAdd.do?scpcid=' + scpcid + '&projectName=' + projectName + "&id=" + id;
+            diag.URL = '<%=basePath%>hhz/auditAdd.do?scpcid=' + scpcid + '&projectName=' + projectName + "&id=" + id;
             diag.Width = 600;
             diag.Height = 500;
             diag.CancelEvent = function(){ //关闭事件

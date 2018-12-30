@@ -23,7 +23,7 @@
 	<div class="row-fluid">
 	
 			<!-- 检索  -->
-			<form action="adIssue/check.do" method="post" name="Form" id="Form">
+			<form action="jxd/check.do" method="post" name="Form" id="Form">
 				<div id="zhongxin">
 			<table>
 				<tr>
@@ -168,7 +168,7 @@
 			 var diag = new top.Dialog();
 			 diag.Drag=true;
 			 diag.Title ="新增";
-			 diag.URL = '<%=basePath%>adIssue/goAdd.do';
+			 diag.URL = '<%=basePath%>jxd/goAdd.do';
             diag.Width = 1960;
             diag.Height = 1020;
 			 diag.CancelEvent = function(){ //关闭事件
@@ -190,7 +190,7 @@
 			bootbox.confirm("确定要删除吗?", function(result) {
 				if(result) {
 					top.jzts();
-					var url = "<%=basePath%>adIssue/delete.do?ID="+Id+"&tm="+new Date().getTime();
+					var url = "<%=basePath%>jxd/delete.do?ID="+Id+"&tm="+new Date().getTime();
 					$.get(url,function(data){
 						nextPage(${page.currentPage});
 					});
@@ -207,7 +207,7 @@
 			 var diag = new top.Dialog();
 			 diag.Drag=true;
 			 diag.Title ="编辑";
-			 diag.URL = '<%=basePath%>adIssue/auditPage.do?projectName='+projectName+'&ID='+Id;
+			 diag.URL = '<%=basePath%>jxd/auditPage.do?projectName='+projectName+'&ID='+Id;
 			 diag.Width = 1960;
 			 diag.Height = 1020;
 			 diag.CancelEvent = function(){ //关闭事件
@@ -288,7 +288,7 @@
 							top.jzts();
 							$.ajax({
 								type: "POST",
-								url: '<%=basePath%>adIssue/deleteAll.do?tm='+new Date().getTime(),
+								url: '<%=basePath%>jxd/deleteAll.do?tm='+new Date().getTime(),
 						    	data: {DATA_IDS:str},
 								dataType:'json',
 								//beforeSend: validateData,
@@ -309,7 +309,7 @@
         function toExcel(){
             var KEYW = $("#nav-search-input").val();
             var dataMonth = $("#dataMonth").val();
-            window.location.href='<%=basePath%>adIssue/exce2.do?dataMonth='+dataMonth;
+            window.location.href='<%=basePath%>jxd/exce2.do?dataMonth='+dataMonth;
         }
 		
 		//打开上传excel页面

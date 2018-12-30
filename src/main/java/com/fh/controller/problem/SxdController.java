@@ -5,25 +5,10 @@ import com.fh.entity.Page;
 import com.fh.entity.qizhe.Audit;
 import com.fh.entity.qizhe.Images;
 import com.fh.entity.qizhe.ProjectAuditHelper;
-import com.fh.service.hans.HansService;
+import com.fh.service.hans.SxdService;
 import com.fh.service.problem.AdIssueService;
 import com.fh.service.system.user.UserService;
-import com.fh.util.AppUtil;
-import com.fh.util.Const;
-import com.fh.util.Jurisdiction;
-import com.fh.util.ObjectExcelView;
-import com.fh.util.PageData;
-import com.fh.util.StringUtils;
-import java.io.PrintWriter;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Resource;
-import javax.servlet.http.HttpSession;
+import com.fh.util.*;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
@@ -35,6 +20,13 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+import java.io.PrintWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /** 
  * 类名称：IssueController
@@ -53,8 +45,8 @@ public class SxdController extends BaseController {
 	private UserService userService;
 
 
-	@Resource(name="hansService")
-	private HansService qizheService;
+	@Resource(name="sxdService")
+	private SxdService qizheService;
 
 	/**
 	 * 去新增页面
@@ -67,7 +59,7 @@ public class SxdController extends BaseController {
 		pd = this.getPageData();
 		try {
 			List<PageData>	varList= (List<PageData>) qizheService.query(pd);
-			mv.setViewName("hans/scpc");
+			mv.setViewName("sxd/scpc");
 			mv.addObject("varList", varList);
 			mv.addObject("msg", "save");
 			mv.addObject("pd", pd);
@@ -80,7 +72,7 @@ public class SxdController extends BaseController {
 	@RequestMapping("/auditPage")
 	public ModelAndView auditPage() throws Exception {
 		ModelAndView mv = this.getModelAndView();
-		mv.setViewName("hans/auditPage");
+		mv.setViewName("sxd/auditPage");
 		PageData pd = this.getPageData();
 		PageData project = qizheService.findById(pd);
 		pd.put("id", pd.get("ID"));
@@ -117,7 +109,7 @@ public class SxdController extends BaseController {
 					pd.put("status1","待审核");
 					sele.put("beiyong3","待审核");
 					qizheService.saveAudit2(pd);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -137,7 +129,7 @@ public class SxdController extends BaseController {
 					}
 					sele.put("beiyong3","待审核");
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 
@@ -146,7 +138,7 @@ public class SxdController extends BaseController {
 					audit.put("status1","已最终回复");
 					audit.put("audit2",pd.get("audit2"));
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -155,19 +147,19 @@ public class SxdController extends BaseController {
 				sele.put("beiyong3","已回复");
 				audit.put("audit1",pd.get("audit1"));
 				qizheService.updateAudit2(audit);
-				qizheService.edit(sele);
+				//qizheService.edit(sele);
 			}
 
 
 		}
-		return "redirect:/adIssue/auditPage.do?projectName="+pd.get("projectName")+"&ID="+pd.get("scpcid")+"";
+		return "redirect:/sxd/auditPage.do?projectName="+pd.get("projectName")+"&ID="+pd.get("scpcid")+"";
 
 	}
 
 	@RequestMapping(value="/goImageAdd")
 	public ModelAndView goImageAdd(Integer id, String projectName) {
 		ModelAndView mv = this.getModelAndView();
-		mv.setViewName("hans/imageAddPage");
+		mv.setViewName("sxd/imageAddPage");
 		mv.addObject("id", id);
 		mv.addObject("projectName", projectName);
 		return mv;
@@ -198,7 +190,7 @@ public class SxdController extends BaseController {
 		}
 		mv.addObject("auditCount", auditCount);
 		mv.addObject("audit", audit);
-		mv.setViewName("hans/auditAdd");
+		mv.setViewName("sxd/auditAdd");
 		mv.addObject("pd", pd);
 		return mv;
 	}
@@ -237,7 +229,7 @@ public class SxdController extends BaseController {
 		PageData pd = new PageData();
 		pd = this.getPageData();
 		List<PageData>	varList = qizheService.getImageDeal(pd);
-		mv.setViewName("hans/imageDealPage");
+		mv.setViewName("sxd/imageDealPage");
 		mv.addObject("varList", varList);
 		mv.addObject("pd", pd);
 		return mv;
@@ -368,7 +360,7 @@ public class SxdController extends BaseController {
 			if(scpc.equals("2")){
 				varList = qizheService.qgongsi(page);
 			}
-			mv.setViewName("hans/manage");
+			mv.setViewName("sxd/manage");
 			mv.addObject("varList", varList);
 			mv.addObject("pd", pd);
 			mv.addObject(Const.SESSION_QX,this.getHC());	//按钮权限
@@ -410,7 +402,7 @@ public class SxdController extends BaseController {
 				varList = qizheService.qgongsi(page);
 			}
 
-			mv.setViewName("hans/manage");
+			mv.setViewName("sxd/manage");
 			mv.addObject("varList", varList);
 			mv.addObject("pd", pd);
 			mv.addObject(Const.SESSION_QX,this.getHC());	//按钮权限
@@ -434,9 +426,13 @@ public class SxdController extends BaseController {
 		try {
 			pd = qizheService.findById(pd);	//根据ID读取
 			Map<String, Audit> auditInfo = getAuditInfo(pd.get("ID"));
-			mv.setViewName("hans/scpc");
+			mv.setViewName("sxd/scpc");
 			mv.addObject("auditInfo", auditInfo);
 			mv.addObject("msg", "edit");
+			pd.put("Q1.1","-1");
+//			pd.put("C1.2","-1");
+//			pd.put("C1.3","-1");
+			pd.put("Q1.3","-2");
 			mv.addObject("pd", pd);
 		} catch (Exception e) {
 			logger.error(e.toString(), e);
@@ -522,7 +518,7 @@ public class SxdController extends BaseController {
 			}
 
 
-			mv.setViewName("hans/check");
+			mv.setViewName("sxd/check");
 			mv.addObject("varList", varList);
 			mv.addObject("pd", pd);
 			mv.addObject(Const.SESSION_QX,this.getHC());	//按钮权限

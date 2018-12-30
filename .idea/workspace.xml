@@ -7,19 +7,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91eb1485-3107-4646-b921-29c504d3768b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hans_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hans_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hans_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hans_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/hans.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/AdIssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/AdIssueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/HhzController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/HhzController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/JxdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/JxdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/SxdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/controller/problem/SxdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelperHans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelperHans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelperJXD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fh/entity/qizhe/ProjectAuditHelperJXD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/hans/HansScpcMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/hans/HansScpcMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/hans/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/META-INF/hans.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/AdIssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/AdIssueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/HhzController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/HhzController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/JxdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/JxdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/SxdController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/SxdController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/entity/qizhe/ProjectAuditHelperHans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/entity/qizhe/ProjectAuditHelperHans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/entity/qizhe/ProjectAuditHelperJXD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/entity/qizhe/ProjectAuditHelperJXD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/classes/mybatis/hans/HansScpcMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/classes/mybatis/hans/HansScpcMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hans/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hans/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hans/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hans/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/auditPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/auditPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/hhz/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/jxd/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/problem/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/problem/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/WEB-INF/jsp/sxd/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,48 +90,63 @@
     <favorites_list name="shiyu" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JxdController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="109">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SxdController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="5623">
+              <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="HhzController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/check.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+            <state relative-caret-position="5772">
+              <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/check.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5772">
+              <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/check.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276" />
+            <state relative-caret-position="209">
+              <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -102,18 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>离站时间</find>
-      <find>nav-search-input</find>
-      <find>所属类型</find>
-      <find>访问员姓名</find>
-      <find>namelistPage</find>
-      <find>project</find>
-      <find>projectInfos</find>
-      <find>ProjectAuditHelper</find>
-      <find>aduitScpc</find>
-      <find>saveAudit</find>
-      <find>findAuditScpclistPage</find>
-      <find>user</find>
       <find>-</find>
       <find>excelScpc</find>
       <find>findAllAuditScpclistPage</find>
@@ -121,17 +168,29 @@
       <find>saveAudit2</find>
       <find>updateAudit2</find>
       <find>findByName</find>
-      <find>hans</find>
-      <find>list</find>
       <find>加油站</find>
       <find>Qizhe</find>
       <find>problem</find>
-      <find>adIssue</find>
       <find>getAuditByscpcid</find>
-      <find>PROJECT_INFO</find>
       <find>projectHelp</find>
       <find>PROJECT_HELP</find>
       <find>所属片区</find>
+      <find>hans_scpc</find>
+      <find>HansScpcMapper</find>
+      <find>HhzScpcMapper</find>
+      <find>hhz_scpc</find>
+      <find>hans</find>
+      <find>jxd</find>
+      <find>jxd_scpc</find>
+      <find>JxdScpcMapper</find>
+      <find>list</find>
+      <find>/list</find>
+      <find>PROJECT_INFO</find>
+      <find>scpc</find>
+      <find>update</find>
+      <find>goEdit</find>
+      <find>saveAudit</find>
+      <find>adIssue</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -147,8 +206,17 @@
       <replace>+</replace>
       <replace>门店</replace>
       <replace>Hans</replace>
-      <replace>hans</replace>
+      <replace>hhz_scpc</replace>
+      <replace>HhzScpcMapper</replace>
+      <replace>jxd_scpc</replace>
+      <replace>JxdScpcMapper</replace>
+      <replace>sxd_scpc</replace>
+      <replace>SxdScpcMapper</replace>
       <replace>PROJECT_HELP</replace>
+      <replace>hans</replace>
+      <replace>jxd</replace>
+      <replace>sxd</replace>
+      <replace>hhz</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,25 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/qizhe/QizheAddressMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/system/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/easyUpload.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/Images.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/information/pictures/PicturesController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/imageDealPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/imageAddPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/Audit.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/auditAdd.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAudit.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/jquery.dataTables.bootstrap.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/UI_new/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/UI_new/js/ace.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/index.jsp" />
-        <option value="$USER_HOME$/Downloads/drop/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/system/user/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/TemplateProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/qizhe/QizheService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/qizhe/QizheScpcMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/head.jsp" />
@@ -187,35 +236,48 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/QizheScpcMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/QizheService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/HansService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/HansAddressMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/check.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/imageAddPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/util/redis/JiSuan.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHHZ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperSXD.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JXDController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SXDController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/HhzScpcMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/auditPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/HhzService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/JxdScpcMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/JxdService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/SxdScpcMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/SxdService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/auditPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/auditPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -239,11 +301,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="FHM Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FHM Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1035" />
     <option name="width" value="900" />
     <option name="height" value="1050" />
@@ -273,8 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +416,37 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="sxd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="hans" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hans" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="hans" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hans" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -362,7 +458,7 @@
     <property name="SearchEverywhereHistoryKey" value="QizheScpcMapper&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/resources/mybatis/qizhe/QizheScpcMapper.xml&#10;pictures&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/java/com/fh/controller/information/pictures/PicturesController.java&#10;head.js&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/webapp/static/js/myjs/head.js&#10;pro&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/java/com/fh/entity/qizhe/TemplateProcess.java&#10;QizheAddressMapper&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/resources/mybatis/qizhe/QizheAddressMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546010206421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546164093363" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../yuantao/yuantao" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -370,22 +466,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\shiyu\qizhe\src\main\webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fh.controller.problem" />
-      <recent name="com.fh.entity.qizhe" />
-      <recent name="com.fh.service.hans" />
-      <recent name="com.fh.service.qizhe" />
-      <recent name="com.fh.controller.information.pictures" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\hans\hans\src\main\resources\mybatis\hans" />
       <recent name="D:\java\hans\hans\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\java\hans\hans\src\main\resources\mybatis" />
       <recent name="D:\java\hans\hans\src\main\webapp\static\login\images" />
       <recent name="D:\java\qizhe\qizhe6-10\qizhe-master\src\main\webapp\WEB-INF\jsp\problem" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fh.service.hans" />
+      <recent name="com.fh.controller.problem" />
+      <recent name="com.fh.entity.qizhe" />
+      <recent name="com.fh.service.qizhe" />
+      <recent name="com.fh.controller.information.pictures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\shiyu\qizhe\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,36 +497,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -443,32 +527,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -485,11 +553,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiyu" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="53650" />
       </RunnerSettings>
@@ -538,18 +606,19 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="hans:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method>
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -697,7 +766,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="414745000" />
+    <option name="totallyTimeSpent" value="434680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,88 +778,85 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.32524964" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
-      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.15616623" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46504992" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.32524964" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
+      <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
+      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.23525469" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.5363766" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.230563" />
-      <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46458924" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.5363766" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.15616623" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50482833" side_tool="true" weight="0.5373303" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49722221" weight="0.32577905" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.1883378" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Image Layers" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Spring" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46458924" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46600565" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -800,6 +866,12 @@
           <line>135</line>
           <properties />
           <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java</url>
+          <line>310</line>
+          <properties />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -867,183 +939,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/DaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/tab.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/system/admin/default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/uploadexcel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/issue_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/image.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1539" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/check.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/auditPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="50" column="10" selection-start-line="45" selection-start-column="63" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/hans/HansService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="345" column="54" selection-start-line="345" selection-start-column="54" selection-end-line="345" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/imageDealPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/imageAddPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/image.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_91/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="2831" column="18" selection-start-line="2831" selection-start-column="18" selection-end-line="2831" selection-end-column="18" />
-          <folding>
-            <element signature="e#111196#111197#0" expanded="true" />
-            <element signature="e#111251#111252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/qizhe/QizheScpcMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="477" column="33" selection-start-line="477" selection-start-column="22" selection-end-line="477" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/HansAddressMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/check.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/redis/JiSuan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -1058,23 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1306">
-          <caret line="255" column="40" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/IssueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/DaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -1086,20 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHHZ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -1124,70 +988,386 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="75" />
+        <state relative-caret-position="6269">
+          <caret line="345" column="54" selection-start-line="345" selection-start-column="54" selection-end-line="345" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/IssueController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/HhzScpcMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1212">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/hans/HhzService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/JxdScpcMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19388">
+          <caret line="1035" column="28" selection-start-line="1035" selection-start-column="28" selection-end-line="1035" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/hans/JxdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6494">
+          <caret line="345" column="54" selection-start-line="345" selection-start-column="54" selection-end-line="345" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/SxdScpcMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19665">
+          <caret line="1035" column="28" selection-start-line="1035" selection-start-column="28" selection-end-line="1035" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/hans/SxdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2915">
+          <caret line="181" column="61" selection-start-line="181" selection-start-column="61" selection-end-line="181" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6099">
+          <caret line="345" column="54" selection-start-line="345" selection-start-column="54" selection-end-line="345" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="179" column="96" selection-start-line="179" selection-start-column="96" selection-end-line="179" selection-end-column="96" />
+        <state relative-caret-position="378">
+          <caret line="181" column="52" selection-start-line="181" selection-start-column="52" selection-end-line="181" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.3.9/maven/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.3.9/maven/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/context/request/ServletRequestAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/PageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.3.9/maven/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/hans/HansService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="96" column="41" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="243" column="49" selection-start-line="243" selection-start-column="43" selection-end-line="243" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/hans/HansScpcMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="613" column="37" lean-forward="true" selection-start-line="613" selection-start-column="37" selection-end-line="613" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_91/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="171" selection-start-line="11" selection-start-column="171" selection-end-line="11" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/jdk1.8.0_91/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="383" column="10" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="252" column="30" selection-start-line="252" selection-start-column="26" selection-end-line="252" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHHZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperHans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperJXD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="266" column="112" selection-start-line="266" selection-start-column="112" selection-end-line="266" selection-end-column="112" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+        <state relative-caret-position="247">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6739">
-          <caret line="329" column="31" selection-start-line="329" selection-start-column="29" selection-end-line="329" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java">
+    <entry file="jar://D:/apache-maven-3.3.9/maven/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+        <state relative-caret-position="402">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/auditPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/auditPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/auditPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/auditPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="264" column="62" selection-start-line="264" selection-start-column="59" selection-end-line="264" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="27" />
+        <state relative-caret-position="123">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="149" column="42" lean-forward="true" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5623">
+          <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5772">
+          <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5772">
+          <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="311" column="54" selection-start-line="311" selection-start-column="54" selection-end-line="311" selection-end-column="54" />
         </state>
       </provider>
     </entry>

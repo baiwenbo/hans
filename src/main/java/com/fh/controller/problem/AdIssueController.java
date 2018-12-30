@@ -110,7 +110,7 @@ public class AdIssueController extends BaseController {
 					pd.put("status1","待审核");
 					sele.put("beiyong3","待审核");
 					qizheService.saveAudit2(pd);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -130,7 +130,7 @@ public class AdIssueController extends BaseController {
 					}
 					sele.put("beiyong3","待审核");
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 
@@ -139,7 +139,7 @@ public class AdIssueController extends BaseController {
 					audit.put("status1","已最终回复");
 					audit.put("audit2",pd.get("audit2"));
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -148,7 +148,7 @@ public class AdIssueController extends BaseController {
 				sele.put("beiyong3","已回复");
 				audit.put("audit1",pd.get("audit1"));
 				qizheService.updateAudit2(audit);
-				qizheService.edit(sele);
+				//qizheService.edit(sele);
 			}
 
 
@@ -430,6 +430,11 @@ public class AdIssueController extends BaseController {
 			mv.setViewName("problem/scpc");
 			mv.addObject("auditInfo", auditInfo);
 			mv.addObject("msg", "edit");
+			pd.put("C1.1","-1");
+//			pd.put("C1.2","-1");
+//			pd.put("C1.3","-1");
+			pd.put("C1.4","-2");
+
 			mv.addObject("pd", pd);
 		} catch (Exception e) {
 			logger.error(e.toString(), e);

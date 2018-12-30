@@ -119,7 +119,7 @@ public class HansController extends BaseController {
 					pd.put("status1","待审核");
 					sele.put("beiyong3","待审核");
 					qizheService.saveAudit2(pd);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -139,7 +139,7 @@ public class HansController extends BaseController {
 					}
 					sele.put("beiyong3","待审核");
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 
@@ -148,7 +148,7 @@ public class HansController extends BaseController {
 					audit.put("status1","已最终回复");
 					audit.put("audit2",pd.get("audit2"));
 					qizheService.updateAudit2(audit);
-					qizheService.edit(sele);
+					//qizheService.edit(sele);
 				}
 
 			}
@@ -157,12 +157,12 @@ public class HansController extends BaseController {
 				sele.put("beiyong3","已回复");
 				audit.put("audit1",pd.get("audit1"));
 				qizheService.updateAudit2(audit);
-				qizheService.edit(sele);
+				//qizheService.edit(sele);
 			}
 
 
 		}
-		return "redirect:/adIssue/auditPage.do?projectName="+pd.get("projectName")+"&ID="+pd.get("scpcid")+"";
+		return "redirect:/hans/auditPage.do?projectName="+pd.get("projectName")+"&ID="+pd.get("scpcid")+"";
 
 	}
 

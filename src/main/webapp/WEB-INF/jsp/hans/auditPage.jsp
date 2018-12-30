@@ -43,12 +43,12 @@
 
 </head>
 <body>
-<form id="formData" action="<%=basePath%>adIssue/saveAudit.do">
+<form id="formData" action="<%=basePath%>hans/saveAudit.do">
 	<div id="zhongxin">
 <div style="margin: 10px; ">
 	<br />
 	<c:set var="nameSm" value="${pd.projectName}sm"></c:set>
-	<h4>加油站名称：${project.qname}</h4>
+	<h4>门店名称：${project.qname}</h4>
 	<hr />
 	<span>考核内容：${projectInfos[pd.projectName]}</span>
 	<br /><br />
