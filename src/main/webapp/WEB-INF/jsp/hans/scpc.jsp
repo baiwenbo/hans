@@ -150,38 +150,37 @@
 						</select>
 						</c:if>
 					</div></td>
-					<td align="left" valign="top" width="40%">所属分公司：${pd.qgongsi}</td>
-					<td align="left" width="13%" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所属片区:&nbsp;&nbsp;<input type="text" size=10 name="bumen" value="${pd.bumen}" ></td>
+					<td align="left" valign="top" width="40%"></br>所属分公司：${pd.qgongsi}</td>
+					<td align="left" valign="top" width="40%"></br>门店地址：${pd.address}</td>
 
-					<td align="left" width="21%" valign="top">洗手间（有/无）:<input type="text" size=10 name="wc" value="${pd.wc}" ></td>
+
+
+					<%--
+                                        <td align="left" width="21%" valign="top">洗手间（有/无）:<input type="text" size=10 name="wc" value="${pd.wc}" ></td>
+                    --%>
+
 
 				</tr>
 				<tr class="text-center">
 					<td width="16%" align="left" valign="top">门店编码：${pd.qnamehao}</td>
-					<td align="left" width="13%" valign="top">便利店（有/无）:<input type="text" size=10 name="bianli" value="${pd.bianli}" ></td>
-					<td align="left" valign="top" width="40%">所属类型：<input type="text" size=10 name="type" value="${pd.type}" ></td>
+					<%--
+                                        <td align="left" width="13%" valign="top">便利店（有/无）:<input type="text" size=10 name="bianli" value="${pd.bianli}" ></td>
+                    --%>
+					<td align="left" valign="top">所属类型:<input type="text" size=10 name="type" value="${pd.type}" ></td>
+					<td align="left" valign="top">所属片区:<input type="text" size=10 name="bumen" value="${pd.bumen}" ></td>
 
-					<td align="left" valign="top">访问员姓名：<input type="text" size=10 name="fname" value="${pd.fname}" ></td>
 				</tr>
 				<tr class="text-center">
-					<td align="left" valign="top">进站时间：<input type="text" size=10 name="jinzhan" value="${pd.jinzhan}" ></td>
-					<td width="10%" align="left" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	考评日期：&nbsp;&nbsp;&nbsp;<input type="text" size=10 name="jinzhandate" value="${pd.jinzhandate}" ></td>
-
-					<td align="center" valign="middle" width="40%">工作日类别（工作日/周末日）:<input type="text" size=10 name="category" value="${pd.category}" ></td>
-					<td align="left" valign="top" width="40%">门店地址：${pd.address}</td>
+					<td align="left" valign="top">进站时间:<input type="text" size=10 name="jinzhan" value="${pd.jinzhan}" ></td>
+					<td align="left" valign="top">考评日期:<input type="text" size=10 name="jinzhandate" value="${pd.jinzhandate}" ></td>
+					<td align="left" valign="top">工作日类:<input type="text" size=10 name="category" value="${pd.category}" ></td>
 				</tr>
 
 
 				<tr class="text-center">
-
-
-
-					<td align="left" valign="top">离站时间：<input type="text" size=30 name="lizhan" class="form-control"  value="${pd.lizhan}">　</td>
-
-
-					<td align="left" valign="top"></td>
-					<td align="left" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;油站得分：<input type="text" size=10 name="qscore" value="${pd.qscore}" ></td>
-
+					<td align="left" valign="top">离站时间:<input type="text" size=30 name="lizhan"  value="${pd.lizhan}">　</td>
+					<td align="left" valign="top">访问姓名:<input type="text" size=10 name="fname" value="${pd.fname}" ></td>
+					<td align="left" valign="top">门店得分:<input type="text" size=10 name="qscore" value="${pd.qscore}" ></td>
 				</tr>
 
 			</table>

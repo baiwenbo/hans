@@ -179,7 +179,7 @@
 				<tr class="text-center">
 					<td align="left" valign="top">离站时间:<input type="text" size=30 name="lizhan"  value="${pd.lizhan}">　</td>
 					<td align="left" valign="top">访问姓名:<input type="text" size=10 name="fname" value="${pd.fname}" ></td>
-					<td align="left" valign="top">油站得分:<input type="text" size=10 name="qscore" value="${pd.qscore}" ></td>
+					<td align="left" valign="top">门店得分:<input type="text" size=10 name="qscore" value="${pd.qscore}" ></td>
 				</tr>
 
 			</table>
