@@ -439,6 +439,32 @@ public class HansController extends BaseController {
 			mv.setViewName("hans/scpc");
 			mv.addObject("auditInfo", auditInfo);
 			mv.addObject("msg", "edit");
+			if(pd.get("qnamehao").toString().equals("7705")){
+				pd.put("1","-3");pd.put("1sm","店铺外，商场墙壁有涂鸦");
+				pd.put("3","-3");pd.put("3sm","门前地面有大量垃圾");
+				pd.put("6","-5");pd.put("6sm","储物箱溢满未盖、地面堆放垃圾、地面堆放水桶杂物、地面污渍、收银台桌面堆放私人物品、收银台垃圾溢出、商品展示区堆放杂物白菜");
+				pd.put("10","-3");pd.put("10sm","乱接电源");
+				pd.put("12","-4");pd.put("12sm","样机堆放在地面");
+
+				pd.put("19","-4");pd.put("19sm","人员没有穿工装、未佩戴工牌");
+				pd.put("20","-4");pd.put("20sm","人员趴柜玩手机、站姿松懈、三人以上聚岗");
+				pd.put("21","-4");pd.put("21sm","人员看手机");
+				pd.put("22","-1");pd.put("22sm","人员没有说你好或微笑置意");
+				pd.put("30","是");pd.put("30sm","挂牌价格5188实际价格4099，挂牌价格4899实际价格3499,挂牌价格4999实际价格3999，挂牌价格6598实际价格4598");
+			}else
+			{
+			pd.put("3","-3");pd.put("3sm","门店门口有垃圾，三包区域有垃圾");
+			pd.put("5","-3");pd.put("5sm","店内无音乐");
+			pd.put("6","-5");pd.put("6sm","地面有垃圾");
+			pd.put("9","-3");pd.put("9sm","卫生间墙面不干净，有异味");
+			pd.put("10","-3");pd.put("10sm","配电箱敞开");
+			pd.put("13","-4");pd.put("13sm","冰箱内摆放杂物");
+			pd.put("16","-4");pd.put("16sm","商品无价签");
+			pd.put("19","-4");pd.put("19sm","员工未着工装");
+			pd.put("20","-4");pd.put("20sm","4个倚靠墙壁，另有3人聚岗聊天");
+			pd.put("21","-1");pd.put("21sm","走进3米店员未放下手机");
+			pd.put("30","是");pd.put("30sm","海尔净化器原价10576现价8600");
+			}
 			mv.addObject("pd", pd);
 		} catch (Exception e) {
 			logger.error(e.toString(), e);

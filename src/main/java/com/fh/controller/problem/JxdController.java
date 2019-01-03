@@ -437,6 +437,16 @@ public class JxdController extends BaseController {
 			mv.setViewName("jxd/scpc");
 			mv.addObject("auditInfo", auditInfo);
 			mv.addObject("msg", "edit");
+			pd.put("1","-6");pd.put("1sm","统一区域显示海尔门头");
+			pd.put("4","-4");pd.put("4sm","地面有垃圾，有杂物堆放");
+			pd.put("9","-4");pd.put("9sm","未开启一半电视机");
+
+			pd.put("12","-4");pd.put("12sm","手写价签");
+			pd.put("14","-4");pd.put("14sm","员工未着苏宁精选店工装");
+			pd.put("15","-2");pd.put("15sm","员工坐岗");
+
+			pd.put("21","-6");pd.put("21sm","店内无展示零售云货架APP");
+
 			mv.addObject("pd", pd);
 		} catch (Exception e) {
 			logger.error(e.toString(), e);

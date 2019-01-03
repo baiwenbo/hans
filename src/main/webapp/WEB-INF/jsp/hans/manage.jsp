@@ -51,10 +51,11 @@
 					<th class="center">ID</th>
 					<th class="center">月份</th>
 					<th class="center">分公司</th>
-					<th class="center">片区</th>
+
 					<th class="center">门店名称</th>
 					<th class="center">门店代码</th>
 					<th class="center">考评得分</th>
+					<th class="center">视频和图片下载地址</th>
 					<th class="center">申诉情况</th>
 					<th class="center">考评日期</th>
 					<th class="center">操作</th>
@@ -75,10 +76,11 @@
 								<td class='center' style="width: 30px;">${var.ID}</td>
 								<td class='center'><fmt:formatDate value="${var.dateMonth }" pattern="yyyy-MM-dd"/></td>
 								<td class='center' >${var.qgongsi }</td>
-								<td class='center'>${var.bumen}</td>
+
 								<td class='center'>${var.qname}</td>
 								<td class='center'>${var.qnamehao}</td>
 								<td class='center'>${var.qscore}</td>
+								<td class='center'>${var.bumen}</td>
 								<td class='center'>${var.beiyong4}</td>
 								<td class='center'>${var.jinzhandate}</td>
 								<td class='center' ><a onclick="edit('${var.ID}');">	查看</a></td>
