@@ -440,7 +440,7 @@ public class JxdController extends BaseController {
 			pd.put("1","-6");pd.put("1sm","统一区域显示海尔门头");
 			pd.put("4","-4");pd.put("4sm","地面有垃圾，有杂物堆放");
 			pd.put("9","-4");pd.put("9sm","未开启一半电视机");
-
+			pd.put("11","-2");pd.put("11sm","店内地板上仍然放有8.18促销地贴");
 			pd.put("12","-4");pd.put("12sm","手写价签");
 			pd.put("14","-4");pd.put("14sm","员工未着苏宁精选店工装");
 			pd.put("15","-2");pd.put("15sm","员工坐岗");
