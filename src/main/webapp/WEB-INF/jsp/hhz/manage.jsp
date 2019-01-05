@@ -51,7 +51,7 @@
 					<th class="center">ID</th>
 					<th class="center">月份</th>
 					<th class="center">分公司</th>
-					<th class="center">片区</th>
+					<th class="center">视频和图片下载地址</th>
 					<th class="center">门店名称</th>
 					<th class="center">门店代码</th>
 					<th class="center">考评得分</th>

@@ -430,10 +430,32 @@ public class AdIssueController extends BaseController {
 			mv.setViewName("problem/scpc");
 			mv.addObject("auditInfo", auditInfo);
 			mv.addObject("msg", "edit");
-			pd.put("C1.1","-1");
-//			pd.put("C1.2","-1");
-//			pd.put("C1.3","-1");
-			pd.put("C1.4","-2");
+			if(pd.get("qnamehao").toString().equals("914D")){
+				pd.put("C2.2","-2");pd.put("C2.2sm","购物篮内有垃圾");
+				pd.put("C3.1","-2");pd.put("C3.1sm","台面上放置物品");
+				pd.put("Q1.1","-2");pd.put("Q1.1sm","价签缺少");
+				pd.put("Q2.1","-2");pd.put("Q2.1sm","海报未张贴在腰线以下");
+				pd.put("Q2.2","-2");pd.put("Q2.2sm","电视未开启");
+				pd.put("Q2.3","-2");pd.put("Q2.3sm","进门无门铃声");
+				pd.put("S4","-2");pd.put("S4sm","10分45秒店员未询问还需要点什么");
+				pd.put("S7","-2");pd.put("S7sm","店员未报出应收总金额");
+				pd.put("S8","-3");pd.put("S8sm","15分31秒店员虽有询问支付方式，但未推荐苏宁金融，反而推荐了支付宝");
+			}else
+			{
+				pd.put("Q3.1","-2");pd.put("Q3.1sm","梨腐烂明显");
+				pd.put("S1","-2");pd.put("S1sm","两位员工都没有向我招呼。");
+				pd.put("S2","-2");pd.put("S2sm","两位员工都没有向姐扫当月促销。");
+				pd.put("S3","-3");pd.put("S3sm","员工1没有向我推荐小店APP");
+				pd.put("S4","-2");pd.put("S4sm","员工1没有主动询问我，也没有另外的推销。");
+
+				pd.put("S8","-3");pd.put("S8sm","员工1没有询问我支付方式。");
+				pd.put("S9","-2");pd.put("S9sm","员工1没有双手递交给我找零，小票也没有给我。");
+				pd.put("S10","-2");pd.put("S10sm","员工1没有向我表示谢意，也没有向我告别。");
+				pd.put("S11","-2");pd.put("S11sm","结账时，员工1面无表情，完全没有亲和力。");
+				pd.put("S12.1","-4");pd.put("S12.1sm","员工1未穿着工服。");
+
+			}
+
 
 			mv.addObject("pd", pd);
 		} catch (Exception e) {

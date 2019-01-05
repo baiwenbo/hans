@@ -8,16 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="91eb1485-3107-4646-b921-29c504d3768b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hans/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/hans/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,78 +42,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HansController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="456" column="51" selection-start-line="456" selection-start-column="51" selection-end-line="456" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JxdController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="442" column="65" lean-forward="true" selection-start-line="442" selection-start-column="65" selection-end-line="442" selection-end-column="65" />
+            <state relative-caret-position="-5602">
+              <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="169" column="59" selection-start-line="169" selection-start-column="59" selection-end-line="169" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scpc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JxdController.class" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/JxdController.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8465">
-              <folding>
-                <element signature="e#0#26355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,12 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fh/util/redis/JiSuan.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHHZ.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelperSXD.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAuditHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JXDController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SXDController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/HhzScpcMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/auditPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/service/hans/HhzService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/hans/JxdScpcMapper.xml" />
@@ -235,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hans/auditPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/auditPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/auditPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp" />
@@ -248,14 +177,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jxd/scpc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/scpc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sxd/scpc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -318,6 +244,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="hans" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hans" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,6 +313,13 @@
               <item name="hans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,6 +338,16 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hans" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="hhz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hans" type="b2602c69:ProjectViewProjectNode" />
@@ -496,18 +451,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="hans" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hans" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -515,7 +458,7 @@
     <property name="SearchEverywhereHistoryKey" value="QizheScpcMapper&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/resources/mybatis/qizhe/QizheScpcMapper.xml&#10;pictures&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/java/com/fh/controller/information/pictures/PicturesController.java&#10;head.js&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/webapp/static/js/myjs/head.js&#10;pro&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/java/com/fh/entity/qizhe/TemplateProcess.java&#10;QizheAddressMapper&#9;FILE&#9;file:///Users/cc/work/baiwenbo/qizhe-master/src/main/resources/mybatis/qizhe/QizheAddressMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546530614515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546664610883" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -554,36 +497,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -596,32 +527,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG">
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -638,11 +553,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiyu" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="53650" />
       </RunnerSettings>
@@ -691,18 +606,19 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="hans:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method>
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -853,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441369000" />
+    <option name="totallyTimeSpent" value="444476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -868,103 +784,78 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.32524964" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
-      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.15616623" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46504992" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.5363766" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.230563" />
       <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
-      <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
       <window_info id="Capture Tool" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.24865952" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.26770538" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Spring" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.24530831" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.45184135" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Spring" order="4" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
-      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.23525469" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info id="Image Layers" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="4" sideWeight="0.5065913" side_tool="true" weight="0.13465665" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49340865" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32952926" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4953083" weight="0.3243626" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Spring" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32952926" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50469166" side_tool="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.53541076" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49517167" weight="0.46458924" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32952926" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="0" sideWeight="0.49320388" weight="0.2761394" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.15817694" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5067961" side_tool="true" weight="0.15665236" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1051,20 +942,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/qizhe/QizheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/DaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1079,38 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="245" column="31" lean-forward="true" selection-start-line="245" selection-start-column="31" selection-end-line="245" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/entity/qizhe/ProjectAudit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6269">
-          <caret line="345" column="54" selection-start-line="345" selection-start-column="54" selection-end-line="345" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,16 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/check.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5909">
@@ -1338,16 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/SxdController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1372,13 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="456" column="51" selection-start-line="456" selection-start-column="51" selection-end-line="456" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/JxdController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1386,13 +1208,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1429,6 +1244,66 @@
         <state relative-caret-position="-8465">
           <folding>
             <element signature="e#0#26355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/QizheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HansController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="441" column="61" lean-forward="true" selection-start-line="441" selection-start-column="12" selection-end-line="441" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/AdIssueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="448" column="46" selection-start-line="448" selection-start-column="46" selection-end-line="448" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hhz/scpc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="168" column="59" selection-start-line="168" selection-start-column="59" selection-end-line="168" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/problem/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/hans/WEB-INF/classes/com/fh/controller/problem/AdIssueController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/problem/HhzController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5602">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
